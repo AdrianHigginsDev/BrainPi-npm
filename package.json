@@ -1,0 +1,23 @@
+{
+  "name": "brainpi",
+  "version": "0.5.0",
+  "description": "Node JavaScript MVC Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Adrian Higgins",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "csv-parse": "^4.2.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.23.0",
+    "mongodb": "^3.1.10",
+    "mysql": "^2.16.0",
+    "socket.io": "^2.2.0"
+  }
+}
