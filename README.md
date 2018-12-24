@@ -42,11 +42,26 @@ Then you're all set.
 
 A step by step series will help you install & get ready to start building your BrainPI Application.
 
+#### Option 1 (RECOMMENDED)
+
+We Recommend using our existing project template for proper results.
+
+First, you need to navigate to the folder where your projects reside.
+
+In here, run:
+
+```
+$ git pull 
+
+#### Option 2 (Require Node Module In Project)
+
 First, you'll need to navigate to your project directory, and run the following command:
 
 ```
 $ npm install --save brainpi
 ```
+
+Then you're ready to go!
 
 ## Deployment
 
@@ -62,7 +77,7 @@ We will be releasing a guide on how to set up an Nginx System to deploy this app
 
 ## Authors
 
-* **Adrian Higgins** - *Initial work* - [ahiggins98](https://github.com/ahiggins98)
+* **Adrian Higgins** - *Creator Of BrainPI* - [ahiggins98](https://github.com/ahiggins98)
 
 See also the list of [contributors](https://github.com/ahiggins98/brainpi/contributors) who participated in this project.
 
