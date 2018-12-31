@@ -1,6 +1,6 @@
 {
   "name": "brainpi",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Node JavaScript MVC Framework",
   "main": "index.js",
   "repository": {
