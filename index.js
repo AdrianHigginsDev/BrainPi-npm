@@ -18,15 +18,17 @@ const File                 = require("./lib/File/File");
 const Job                  = require("./lib/Job/Job");
 const JobLoader            = require("./lib/Job/bin/JobLoader");
 const Mail                 = require("./lib/Mail/Mail");
-const Schema               = require("./lib/Migration/src/Schema");
-const Migrate              = require("./lib/Migration/bin/Migration");
+const Migration            = require("./lib/Migration/src/Migration");
+const Migrate              = require("./lib/Migration/bin/Migrate");
+const Table                = require("./lib/Migration/src/Table");
 const Model                = require("./lib/Model/Model");
 const MongoDb              = require("./lib/MongoDb/MongoDb");
 const MySql                = require("./lib/MySql/MySql");
 const Route                = require("./lib/Route/Route");
 const Shock                = require("./lib/Shock/Shock");
 
-module.exports = { Route, Shock, MySql, MongoDb, Schema, Migrate, Job, JobLoader,
+
+module.exports = { Route, Shock, MySql, MongoDb, Migration, Migrate, Job, JobLoader,
 Encryption, Csv, App, Init, MySqlConfig, CsvConfig, MongoDbConfig, Broadcast, Event,
 Channel, ErrorLog, Model, Controller, ModelComponent, ControllerComponent, MigrationComponent,
-File, Structure, Mail};
+File, Structure, Mail, Table};
