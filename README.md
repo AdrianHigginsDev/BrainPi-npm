@@ -42,8 +42,6 @@ Then you're all set.
 
 A step by step series will help you install & get ready to start building your BrainPI Application.
 
-#### Option 1 (RECOMMENDED)
-
 We Recommend using our existing project template for proper results.
 
 First, you need to navigate to the folder where your projects reside.
@@ -51,7 +49,7 @@ First, you need to navigate to the folder where your projects reside.
 In here, run:
 
 ```
-$ git clone https://github.com/AHiggins98/BrainPi.git
+$ git clone https://github.com/AdrianHigginsDev/BrainPi.git
 ```
 
 Afterwards, you'll need to run:
@@ -76,9 +74,9 @@ We will be releasing a guide on how to set up an Nginx System to deploy this app
 
 ## Authors
 
-* **Adrian Higgins** - *Creator Of BrainPI* - [ahiggins98](https://github.com/ahiggins98)
+* **Adrian Higgins** - *Creator Of BrainPI* - [AdrianHigginsDev](https://github.com/AdrianHigginsDev)
 
-See also the list of [contributors](https://github.com/ahiggins98/brainpi/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/AdrianHigginsDev/brainpi/contributors) who participated in this project.
 
 ## License
 
