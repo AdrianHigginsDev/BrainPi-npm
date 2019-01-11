@@ -51,17 +51,16 @@ First, you need to navigate to the folder where your projects reside.
 In here, run:
 
 ```
-$ git pull 
-
-#### Option 2 (Require Node Module In Project)
-
-First, you'll need to navigate to your project directory, and run the following command:
-
-```
-$ npm install --save brainpi
+$ git clone https://github.com/AHiggins98/BrainPi.git
 ```
 
-Then you're ready to go!
+Afterwards, you'll need to run:
+
+```
+$ npm install
+```
+
+
 
 ## Deployment
 
@@ -88,3 +87,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 * Hat tip to all the authors who's projects helped make this what it is
+
+**Special Awknowledgement To ExpressJS &amp; Pug**

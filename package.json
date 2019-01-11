@@ -17,7 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "crypto": "^1.0.1",
-    "csv-parse": "^4.2.0",
+    "csv-parse": "^4.3.0",
     "formidable": "^1.2.1",
     "fs": "0.0.1-security",
     "moment": "^2.23.0",
