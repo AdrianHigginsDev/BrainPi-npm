@@ -23,6 +23,16 @@ Please note we have a code of conduct, please follow it in all your interactions
 3. Found a bug and patched it up?  Great.  But don't try to make a pull request without giving us details.  If I'm not sure what you were doing, I will reject it.
 4. **PLEASE make sure you follow our CODING STANDARD**.  It doesn't help **anyone** if the codebase looks different in each file.
 
+## Coding Standard
+
+1. Use **multi-variable assignment** where applicable.  Pull Requests with code that has 3 var assignments in a row will be rejected.
+2. Use **constants** and avoid **mutations** as much as possible.  Using var on a field that has no mutations will be rejected.  Unneccessary mutation will be rejected.  Our mission is to keep things readable and understandable.
+3. **Good Variable Naming** is incredibly important.  A single **x** or **y** will result in a rejection.
+4. **If/Else** with one line of code does not need **{ }** around it.  I won't reject because of that, but I would prefer it if you didn't.
+5. Long **If/Else** statements that should be **switch** will result in a rejection.
+6. **Poor Indenting** may or may not result in a rejection.  But it's highly likely.
+7. **Use ES6 Conventions Where Possible**.  Arrow functions, map/reduce, etc.  It's so much easier to read.  I will not necissarily reject it, but I would prefer it.
+
 ## Code of Conduct
 
 ### Our Pledge
