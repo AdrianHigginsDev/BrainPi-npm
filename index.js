@@ -22,6 +22,7 @@ const Mail                 = require("./lib/Mail/Mail");
 const Migration            = require("./lib/Migration/src/Migration");
 const Migrate              = require("./lib/Migration/bin/Migrate");
 const Table                = require("./lib/Migration/src/Table");
+const Middleware           = require("./lib/Middleware/Middleware");
 const Model                = require("./lib/Model/Model");
 const MongoDb              = require("./lib/MongoDb/MongoDb");
 const MySql                = require("./lib/MySql/MySql");
@@ -32,4 +33,4 @@ const Shock                = require("./lib/Shock/Shock");
 module.exports = { Route, Shock, MySql, MongoDb, Migration, Migrate, Job, JobLoader,
 Encryption, Csv, App, Init, MySqlConfig, CsvConfig, MongoDbConfig, Broadcast, Event,
 Channel, ErrorLog, Model, Controller, ModelComponent, ControllerComponent, MigrationComponent,
-File, Structure, Mail, Table, CronJobComponent};
+File, Structure, Mail, Table, CronJobComponent, Middleware};
