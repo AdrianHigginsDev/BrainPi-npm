@@ -3,6 +3,7 @@ const Channel              = require("./lib/Broadcast/Channel");
 const ModelComponent       = require("./lib/Conduct/components/Model");
 const ControllerComponent  = require("./lib/Conduct/components/Controller");
 const MigrationComponent   = require("./lib/Conduct/components/Migration");
+const MiddlewareComponent = require("./lib/Conduct/components/Middleware");
 const CronJobComponent     = require("./lib/Conduct/components/CronJob");
 const Structure            = require("./lib/Conduct/structure/Structure");
 const App                  = require("./lib/Config/Config");
@@ -16,6 +17,7 @@ const Encryption           = require("./lib/Encryption/Encryption");
 const ErrorLog             = require("./lib/ErrorLog/ErrorLog");
 const Event                = require("./lib/Event/Event");
 const File                 = require("./lib/File/File");
+const Form                 = require("./lib/Form/Form");
 const Job                  = require("./lib/Job/Job");
 const JobLoader            = require("./lib/Job/bin/JobLoader");
 const Mail                 = require("./lib/Mail/Mail");
@@ -33,4 +35,4 @@ const Shock                = require("./lib/Shock/Shock");
 module.exports = { Route, Shock, MySql, MongoDb, Migration, Migrate, Job, JobLoader,
 Encryption, Csv, App, Init, MySqlConfig, CsvConfig, MongoDbConfig, Broadcast, Event,
 Channel, ErrorLog, Model, Controller, ModelComponent, ControllerComponent, MigrationComponent,
-File, Structure, Mail, Table, CronJobComponent, Middleware};
+File, Structure, Mail, Table, CronJobComponent, Middleware, MiddlewareComponent, Form};
