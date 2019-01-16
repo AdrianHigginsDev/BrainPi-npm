@@ -22,6 +22,7 @@ The **Middleware** class allows us to write our own Middlewares to run either **
 
 The **Form Validation** is easily defined in our Model file, and every time we handle a **POST Request**, we can call the **Model's Validate** method on our **Request** Object.  It couldn't be any simpler. (Recommended To Be Used In Middleware Rather Than Controller).
 
+**These Are Just A Few Of The Great Features BrainPI Offers**
 
 
 ## Getting Started
