@@ -2,6 +2,28 @@
 
 A Node JavaScript MVC Framework
 
+BrainPI is a feature-rich MVC Framework, where our mission is **Clean, Easy, Precise**.  We cover all ends of the application life-cycle, from a Routing system with before/after **Middleware** classes, to quickly configuring a **Form Validation** blueprint inside of your **Model** file, or writing **Migrations** and **Cron Jobs** in just a few minutes.
+
+We aim to tackle each obstacle you, the developer, may run into.
+
+The BrainPI **App** class is used to load your datasources, such as a **MySQL** Database, or to access a **Local Filesystem**, without any effort.
+
+The **SQL** Classes allow for very quick **SQL Building**, and access to our **Object Relational Mapping** tool.  This tool allows you to quickly define relationships in your **Model** Files, and make full query calls based on a one-line function, using the nature of the relationship.
+
+The **File** &amp; **FileSystem** classes allow very dynamic and easy access to the file systems and storage your application may be using.
+
+The **Conduct CLI (Command Line Interface)** allows incredibly fast **File Creation**, such as building up the scaffolding for your **Controllers, Models, Migrations, Cron Jobs** as well as actually running the **Migrations and Cron Jobs**.
+
+The **Migrations** system is very easy to learn and write.  The Table class allows us to very easily define the specifications for our columns in a short &amp; easy manner.
+
+The **Cron Jobs** system is also very simple to learn.  It uses a config() function to define the job's frequency, and a task() function, which runs during each iteration of the job.
+
+The **Middleware** class allows us to write our own Middlewares to run either **before** or **after** our HTTP Request.  This means any middleware you write is accessible from both the **Routes** and the **Controller** files.  Both the **Route** and **Controller Base Class** allow us to access the middleware by name.
+
+The **Form Validation** is easily defined in our Model file, and every time we handle a **POST Request**, we can call the **Model's Validate** method on our **Request** Object.  It couldn't be any simpler. (Recommended To Be Used In Middleware Rather Than Controller).
+
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development purposes.
